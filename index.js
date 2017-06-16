@@ -23,13 +23,20 @@ console.log('My Skills:');
 
 function displaySkill(talent, isCool)  {
      if(isCool == true){
-         console.log('Check It: ' + talent);
+         console.log('* Check It: ' + talent);
      } else{
          console.log('* ' + talent);
      }
  }
  displaySkill('Coder', true)
  displaySkill('Master Baiter', false)
+ displaySkill('Gamer', true)
+ displaySkill('Reading Books', false)
+ displaySkill('Web Developer', true)
+ displaySkill('Surfer', false)
+
+ console.log('``````````````````````````````````````');
+
 
 
 
