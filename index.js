@@ -13,7 +13,7 @@ var job = 'My Previous Experience:';
 console.log(job);
 
 function displayPosition(title, company, description) {
-    console.log(title + ' at ' + company + ' and ' + description);
+    console.log(title + ' at ' + company + ' -- ' + description);
 }
 displayPosition('* Customer service associate', 'Walgreens', 'I provided excellent customer service.');
 displayPosition('* Customer service specialist', 'Best Buy', 'I provided even excellenter customer service.');
